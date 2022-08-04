@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.009" height="19.582" viewBox="0 0 29.009 19.582">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a2ac0"/>
+      <stop offset="1" stop-color="#181461"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_zocial-email" data-name="Icon zocial-email" d="M.072,21.915V5.8q0-.028.084-.532l9.483,8.112L.184,22.475a2.371,2.371,0,0,1-.112-.559ZM1.331,4.152a1.206,1.206,0,0,1,.476-.084h25.54a1.584,1.584,0,0,1,.5.084l-9.511,8.14L17.08,13.3l-2.49,2.042L12.1,13.3l-1.259-1.007Zm.028,19.414L10.9,14.418l3.693,2.993,3.693-2.993,9.539,9.147a1.343,1.343,0,0,1-.476.084H1.806a1.267,1.267,0,0,1-.448-.084ZM19.542,13.383,29,5.271a1.67,1.67,0,0,1,.084.531V21.915a2.144,2.144,0,0,1-.084.559Z" transform="translate(-0.072 -4.068)" fill="url(#linear-gradient)"/>
+</svg>

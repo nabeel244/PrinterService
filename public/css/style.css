@@ -1,0 +1,2584 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Poppins";
+    background-color: var(--greylight2);
+}
+:root {
+    --blue: #201e90;
+    --blue2: #1a75bb;
+    --purpal: #7c5cc4;
+    --grey: #666666;
+    --grey1: #707070;
+    --greylight: #f4f8fb;
+    --greylight2: #fafbfe;
+    --white: #fff;
+    --black: #000;
+}
+.js-hide {
+    display: block !important;
+}
+.js-show {
+    display: block !important;
+}
+.hide-container {
+    display: none !important;
+}
+/* Login-Page CSS Start */
+.Login_countainer {
+    margin-top: 10rem;
+}
+.Register_button {
+    margin-top: 10rem;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 10rem;
+    color: #7c5cc4;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.Register_button:hover {
+    color: #7c5cc4;
+}
+.Register_button--secondary {
+    background-color: var(--purpal);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem 13.5rem;
+}
+.Register_button--secondary:hover {
+    color: var(--white);
+}
+.Login_img {
+    width: 30rem;
+}
+.CreateAccountContainer {
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+.CreateAccountContainer__Heading {
+    color: var(--purpal);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.CreateAccountContainer__Select {
+    margin-top: 2rem;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    color: var(--blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 31%;
+}
+/* .CreateAccountContainer__Select {
+    margin-top: 2rem;
+    border: .1rem solid var(--purpal);
+    background: none;
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.CreateAccountContainer__Select-menu{
+    width: 28%;
+    margin-top: 3rem;
+    border: .1rem solid var(--purpal);
+    border-radius: .5rem;
+    padding: .7rem 1rem;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.dropdown-toggle::after {
+    color: var(--blue);
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left: 20rem;
+    vertical-align: 0rem;
+    content: "";
+    border-top: 1rem solid;
+    border-right: .7rem solid transparent;
+    border-bottom: 0;
+    border-left: .7rem solid transparent;
+} */
+.CreateAccountContainer__Input1 {
+    margin-top: 2rem;
+    display: inline-flex;
+    width: 31%;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.CreateAccountContainer__Colphonecode {
+    display: inline-flex;
+    justify-content: center;
+}
+.CreateAccountContainer__Selectphonecode {
+    margin-top: 1rem;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.5rem;
+    color: var(--blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.CreateAccountContainer__Inputphonecode {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: inline-flex;
+    width: 25%;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    color: var(--blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.CreateAccountContainer__Input2 {
+    margin-top: 1rem;
+    display: inline-flex;
+    width: 31%;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.Register_button--CreateAccountContainer {
+    background-color: var(--purpal);
+    color: var(--white);
+    padding: 1rem 10rem;
+}
+.Register_button--CreateAccountContainer:hover {
+    color: var(--white);
+}
+.LoginContainer {
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+.LoginContainer__Heading {
+    color: var(--purpal);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.LoginContainer__Input1 {
+    margin-top: 2rem;
+    display: inline-flex;
+    width: 28%;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.LoginContainer__Input2 {
+    margin-top: 1rem;
+    display: inline-flex;
+    width: 28%;
+    border: 0.1rem solid var(--purpal);
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.Register_button--LoginContainer {
+    background-color: var(--purpal);
+    color: var(--white);
+    padding: 0.7rem 12rem;
+}
+/* Login-Page CSS End */
+/* HomePage CSS Start */
+/* Navbar CSS Start */
+.navigation-bar {
+    background: var(--white);
+    height: 6rem;
+    box-shadow: 0rem 0rem 1rem 0.1rem var(--grey);
+}
+.navigation-bar__left {
+    width: 10%;
+}
+.navigation-bar__left img {
+    width: 16rem;
+}
+.navigation-bar__right {
+    display: flex;
+    align-items: center;
+    /* margin-right: 2rem; */
+    margin-right: 4rem;
+}
+.navigation-bar__right a {
+    text-decoration: none;
+}
+.navigation-bar__wallet-btn {
+    border: 0.1rem solid var(--purpal);
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+}
+.navigation-bar__wallet-btn img {
+    width: 1.5rem;
+}
+.navigation-bar__wallet-btn p {
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.navigation-bar__wallet-btn span {
+    margin-left: 2rem;
+}
+.navigation-bar__history-btn {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.navigation-bar__history-btn img {
+    width: 1.5rem;
+}
+.navigation-bar__bell-btn {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.navigation-bar__bell-btn img {
+    width: 1.5rem;
+    color: var(--purpal);
+}
+.navigation-bar__profile-btn {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.navigation-bar__profile-btn img {
+    width: 2.5rem;
+}
+/* Navbar CSS End */
+
+/* TabNav CSS Start */
+.TabContainer {
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+.TabContainer__TabNav {
+    margin-top: 3rem;
+    height: 5rem;
+    background-color: var(--greylight2);
+    border: 0.1rem solid var(--purpal);
+    border-radius: 0.7rem;
+    padding: 0rem 1rem;
+    position: relative;
+    line-height: 4.7rem;
+}
+.TabContainer__MobileTabNav {
+    display: none;
+}
+.TabContainer__TabNav a {
+    color: var(--purpal);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.TabContainer__TabNav a:hover {
+    background-color: var(--white);
+    box-shadow: 0rem 0rem 0.2rem 0.1rem lightgrey;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    color: var(--purpal);
+}
+.TabContainer__TabNav a i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.active {
+    box-shadow: 0rem 0rem 0.2rem 0.1rem lightgrey;
+    background-color: var(--white);
+    padding: 0.7rem 2rem;
+    border-radius: 0.7rem;
+    font-size: 1.3rem;
+    color: var(--purpal);
+}
+/* TabNav CSS End */
+.Content {
+    display: none;
+}
+/* Content-Home CSS Start*/
+.ContentContainer__Home {
+    padding-left: 1em;
+    padding-right: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.ContentContainer__HomeRowOneCol h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: var(--purpal);
+}
+.ContentContainer__HomeRowTwo {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.ContentContainer__HomeRowTwo-LeftPart img {
+    width: 25rem;
+}
+.ContentContainer__HomeRowTwo-RightPart {
+    padding-left: 8rem;
+}
+.ContentContainer__HomeRowTwo-RightPart h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: var(--grey1);
+}
+.ContentContainer__HomeRowTwo-RightPart p {
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--grey1);
+}
+.ContentContainer__HomeRowTwo-RightPart img {
+    width: 25rem;
+}
+/* Content-Home CSS End*/
+/* Content-Upload CSS Start*/
+.ContentContainer__Upload {
+    padding-left: 1rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.ContentContainer__UploadRowOneCol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ContentContainer__UploadRowOneCol h1 {
+    color: var(--purpal);
+    letter-spacing: 0.1rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.ContentContainer__UploadRowOneCol a {
+    background-color: var(--purpal);
+    text-decoration: none;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.ContentContainer__UploadRowOneCol a i {
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+.ContentContainer__UploadRowTwoCol {
+    margin-top: 1rem;
+}
+.ContentContainer__UploadRowTwoCol .table thead {
+    background-color: #fff;
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__UploadRowTwoCol .table thead tr {
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem var(--grey1);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.ContentContainer__UploadRowTwoCol .table thead tr th {
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__UploadRowTwoCol .table tbody tr {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.ContentContainer__UploadRowTwoCol .table tbody tr td {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+}
+.ContentContainer__UploadRowTwoCol .table tbody tr td i {
+    font-size: 3rem;
+}
+.ContentContainer__UploadRowTwoCol .table tbody tr td a i {
+    font-size: 2rem;
+}
+.TableInputs1 {
+    border: 0.1rem solid var(--purpal);
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--greylight2);
+}
+.Uploadform-select {
+    text-align: center;
+    display: block;
+    padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    line-height: 1.5;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0.1rem solid var(--purpal);
+    color: var(--purpal);
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ContentContainer__UploadRowThree {
+    margin-top: 3rem;
+}
+.ContentContainer__UploadRowThreeCol a {
+    background-color: var(--purpal);
+    color: var(--white);
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+/* Content-Upload CSS End*/
+/* Content-FileStatus CSS Start*/
+.ContentContainer__FileStatus {
+    padding-left: 7rem;
+    padding-right: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+.ContentContainer__FileStatusRowOneCol h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: var(--purpal);
+}
+.ContentContainer__FileStatusRowTwoCol {
+    margin-top: 1rem;
+}
+.ContentContainer__FileStatusRowTwoCol .table thead {
+    background-color: #fff;
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__FileStatusRowTwoCol .table thead tr {
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem var(--grey1);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.ContentContainer__FileStatusRowTwoCol .table thead tr th {
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__FileStatusRowTwoCol .table tbody tr {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.ContentContainer__FileStatusRowTwoCol .table tbody tr td {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+}
+.ContentContainer__FileStatusRowTwoCol .table tbody tr td i {
+    font-size: 3rem;
+}
+.TableInputs1 {
+    border: 0.1rem solid var(--purpal);
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--greylight2);
+}
+
+/* Content-Configure CSS End*/
+
+/* Content-Locate CSS Start*/
+.ContentContainer__Locate {
+    padding-left: 7rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.ContentContainer__LocateRowOneCol a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    color: var(--purpal);
+}
+.ContentContainer__LocateRowTwoCol {
+    margin-top: 3rem;
+}
+.ContentContainer__LocateRowTwoCol .table thead {
+    background-color: #fff;
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__LocateRowTwoCol .table thead tr {
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem var(--grey1);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.ContentContainer__LocateRowTwoCol .table thead tr th {
+    color: var(--purpal);
+    font-size: 2rem;
+    font-weight: 400;
+}
+.ContentContainer__LocateRowTwoCol .table tbody tr {
+    color: var(--grey1);
+    font-weight: 500;
+    vertical-align: middle;
+}
+.ContentContainer__LocateRowTwoCol .table tbody tr td {
+    color: var(--grey1);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+.ContentContainer__LocateRowTwoCol .table tbody tr td button {
+    border: 0.1rem solid var(--grey1);
+    background-color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+.ContentContainer__LocateRowTwoCol .table tbody tr td button i {
+    font-size: 1.5rem;
+    color: var(--purpal);
+    margin-right: 1rem;
+}
+.ContentContainer__LocateRowTwoCol .table tbody tr td button span {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--purpal);
+}
+.TableAddress img {
+    width: 2.5rem;
+}
+.TableAddress span {
+    margin-left: 0.5rem;
+}
+.ContentContainer__LocateRowThree {
+    margin-top: 2rem;
+}
+.ContentContainer__LocateRowThreeCol a {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--purpal);
+    border: none;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0.7rem;
+}
+.form-check-input:checked {
+    background-color: var(--purpal);
+    border-color: var(--purpal);
+}
+/* Content-Locate CSS End*/
+/* Content-Send CSS Satrt*/
+.ContentContainer__Send {
+    padding-left: 8rem;
+    padding-right: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 15rem;
+}
+.ContentContainer__SendRowOneCol {
+    background-color: #fff;
+    box-shadow: 0rem 0rem 0.7rem 0rem var(--grey1);
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 9rem 9rem 5rem 9rem;
+}
+.ContentContainer__SendRowOneCol h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--purpal);
+}
+.ContentContainer__SendRowOneCol-buttons {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.ContentContainer__SendRowOneCol-btn1 {
+    background-color: var(--purpal);
+    color: var(--white);
+    padding: 0.4rem 3.5rem 0.4rem 3.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 3rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.ContentContainer__SendRowOneCol-btn1--btn2 {
+    background-color: var(--white);
+    color: var(--purpal);
+    padding: 0.3rem 3.4rem 0.3rem 3.4rem;
+    border: 0.1rem solid var(--purpal);
+}
+/* Content-Send CSS End*/
+/* Content-Validate CSS Start*/
+.ContentContainer__Validate {
+    padding-left: 7rem;
+    padding-right: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+}
+.ContentContainer__ValidateRowOneCol h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: var(--purpal);
+}
+.ContentContainer__ValidateRowTwoCol {
+    margin-top: 1rem;
+}
+.table > :not(caption) > * > * {
+    padding: 1rem 0.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.ContentContainer__ValidateRowTwoCol .table thead {
+    background-color: #fff;
+    color: var(--purpal);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.ContentContainer__ValidateRowTwoCol .table thead tr {
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem var(--purpal);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.ContentContainer__ValidateRowTwoCol .table thead tr th {
+    color: var(--purpal);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.ContentContainer__ValidateRowTwoCol .table tbody tr {
+    color: var(--purpal);
+    font-weight: 500;
+    vertical-align: middle;
+}
+.ContentContainer__ValidateRowTwoCol .table tbody tr td {
+    color: var(--purpal);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+.downloadicon--validate {
+    margin-left: 0.7rem;
+    font-size: 1.5rem;
+}
+.TableButtonValidate {
+    background-image: linear-gradient(to right, #2a2ac0, #181461);
+    color: var(--white);
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* Content-Validate CSS End*/
+/* CreateAccount CSS Start*/
+.ContentContainer {
+    margin: 0rem 0rem 10rem 15rem;
+}
+.ContentContainer__CreateAccountRowOne {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ContentContainer__CreateAccountRowOne-LeftPart h1 {
+    color: var(--purpal);
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.ContentContainer__CreateAccountRowOne-RightPart {
+    padding: 0rem;
+}
+.ContentContainer__CreateAccountRowOne-RightPart h2 {
+    color: var(--purpal);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.ContentContainer__CreateAccountRowOne-RightPart a {
+    background-image: linear-gradient(to right, #2a2ac0, #181461);
+    color: var(--white);
+    padding: 0.8rem 5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ContentContainer__CreateAccountRowTwo-LeftPartRows {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.ContentContainer__CreateAccountRowTwo-LeftPartRows label {
+    color: var(--purpal);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.ContentContainer__CreateAccountRowTwo-LeftPartinputs input {
+    padding: 1rem;
+    border: 0.1rem solid var(--purpal);
+}
+.CreateAccount__Edit-icon {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    margin-left: 3rem;
+}
+.ContentContainer__CreateAccountRowTwo-LeftPartbuttonone a {
+    text-decoration: none;
+    display: flex;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 0.5rem;
+    padding: 1rem 11rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.ContentContainer__CreateAccountRowTwo-LeftPartbuttontwo a {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    text-decoration: none;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.ContentContainer__CreateAccountRowTwo-LeftPartbuttontwo a i {
+    margin-right: 2rem;
+    font-size: 1.7rem;
+}
+/* CreateAccount CSS End*/
+/* Received_Money Detail CSS Start*/
+.ContentContainer__MoneyDetail {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+.ContentContainer__MoneyDetailRowOneCol a {
+    background-image: linear-gradient(to right, #2a2ac0, #181461);
+    text-decoration: none;
+    width: 8rem;
+    padding: 0.2rem 3rem 0.2rem 0.5rem;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.ContentContainer__MoneyDetailRowOneCol a i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+.ContentContainer__MoneyDetailRowOneCol h1 {
+    margin-top: 2rem;
+    color: var(--purpal);
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.ContentContainer__MoneyDetailRowTwoCol {
+    margin-top: 2rem;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table thead {
+    background-color: #fff;
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table thead tr {
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem var(--grey1);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table thead tr th {
+    color: var(--purpal);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    font-weight: 400;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table tbody tr {
+    color: var(--grey1);
+    font-weight: 500;
+    vertical-align: middle;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table tbody tr td {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table tbody tr td .TableAddress img {
+    width: 2rem;
+}
+.ContentContainer__MoneyDetailRowTwoCol .table tbody tr td .TableAddress span {
+    color: var(--grey1);
+    margin-left: 1rem;
+}
+/* .ContentContainer__MoneyDetailRowTwo{
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem .5rem .1rem var(--grey1);
+    }
+.ContentContainer__MoneyDetailRowTwoCol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.ContentContainer__MoneyDetailRowTwoCol h1{
+    font-size: 1.3rem;
+    color: var(--purpal);
+    margin-bottom: 0rem;
+    }
+.ContentContainer__MoneyDetailRowTwoCol h2{
+    font-size: 1.3rem;
+    color: var(--purpal);
+    margin-bottom: 0rem;
+     }
+.ContentContainer__MoneyDetailRowThree{
+    margin-top: 1rem;
+    padding: 1rem 7rem 0.5rem 2rem;;
+    border-bottom: .1rem solid var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     }
+.ContentContainer__MoneyDetailRowThreeLeftPart{
+    display: flex;
+    align-items: center;
+    }
+.ContentContainer__MoneyDetailRowThreeLeftPart h1{
+    color: var(--purpal);
+    font-size: 1.3rem;
+    }
+.ContentContainer__MoneyDetailRowThreeRightPart h1{
+    font-size: 1.3rem;
+    color: var(--purpal);
+        } */
+/* Received_Money Detail CSS End*/
+/* History CSS Start*/
+.ContentContainer__History {
+    padding-left: 5rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+.ContentContainer__HistoryRowTwo {
+    margin-top: 1rem;
+}
+.ContentContainer__HistoryRowOneCol h1 {
+    margin-top: 0rem;
+    color: var(--purpal);
+    letter-spacing: 0.1rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.ContentContainer__HistoryRowTwoCol {
+    margin-top: 1rem;
+}
+.ContentContainer__HistoryRowTwoCol .table thead {
+    background-color: #fff;
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__HistoryRowTwoCol .table thead tr {
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem var(--grey1);
+    border-radius: 0.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.ContentContainer__HistoryRowTwoCol .table thead tr th {
+    text-align: center;
+    color: var(--purpal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ContentContainer__HistoryRowTwoCol .table tbody tr {
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.ContentContainer__HistoryRowTwoCol .table tbody tr td {
+    text-align: center;
+    color: var(--purpal);
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+}
+.ContentContainer__HistoryRowTwoCol .table tbody tr td i {
+    font-size: 3rem;
+}
+.TableDownloadbutn span {
+    color: var(--purpal);
+    font-weight: 500;
+}
+/* History CSS End*/
+/* Content-UploadPage CSS Start*/
+.ContentContainer__UploadPage {
+    padding-left: 7rem;
+    padding-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.ContentContainer__UploadPageRowOneCol h1 {
+    color: var(--purpal);
+    letter-spacing: 0.1rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.ContentContainer__UploadPageBox {
+    border: 0.1rem solid var(--purpal);
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    height: 20rem;
+    text-align: center;
+    padding-top: 8rem;
+}
+.ContentContainer__UploadPageBox a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    background-color: var(--purpal);
+    color: var(--white);
+    vertical-align: middle;
+    padding: 0.5rem 10rem 0.5rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.ContentContainer__UploadPageBox a span {
+    color: var(--white);
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+.ContentContainer__UploadPageBox a i {
+    font-size: 1.5rem;
+}
+/* .ContentContainer__UploadPageBoxInput{
+    opacity: 0;
+    position: relative;
+    padding: 0rem 0rem 0rem 5rem;
+}  */
+.ContentContainer__UploadPageRowThree {
+    margin-top: 3rem;
+}
+.ContentContainer__UploadPageRowThreeCol {
+    text-align: end;
+}
+.ContentContainer__UploadPageRowThreeCol a {
+    background-color: var(--purpal);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0.7rem 5rem;
+    border-radius: 0.5rem;
+}
+/* Content-UploadPage CSS End*/
+/* Notification CSS Start*/
+.ContentContainer__Notification {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 10rem;
+}
+.ContentContainer__NotificationRowOneCol {
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+}
+.ContentContainer__NotificationRowOneCol h1 {
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--grey1);
+}
+.ContentContainer__NotificationRowOneCol h1 u {
+    text-decoration-color: #479fcd;
+}
+.ContentContainer__NotificationRowOneCol i {
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    color: #20447c;
+}
+.ContentContainer__NotificationRowTwoCol-row {
+    margin-top: 1rem;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    border-left: 0.2rem solid #479fcd;
+    background-color: var(--white);
+    box-shadow: 0rem 0rem 0.1rem 0rem var(--grey);
+}
+.ContentContainer__NotificationRowTwoCol-rowleftpart {
+    text-align: center;
+    padding: 0rem;
+}
+.ContentContainer__NotificationRowTwoCol-rowleftpart img {
+    width: 3.5rem;
+}
+.ContentContainer__NotificationRowTwoCol-rowcenterpart {
+    padding: 0rem;
+}
+.ContentContainer__NotificationRowTwoCol-rowcenterpart h1 {
+    font-size: 0.9rem;
+    color: #333333;
+    margin-bottom: 0rem;
+}
+.ContentContainer__NotificationRowTwoCol-rowcenterpart p {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0rem;
+}
+.ContentContainer__NotificationRowTwoCol-rowcenterpart span {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0rem;
+}
+.ContentContainer__NotificationRowTwoCol-rowrightpart {
+    text-align: center;
+}
+.ContentContainer__NotificationRowTwoCol-rowrightpart img {
+    width: 3.5rem;
+}
+.ContentContainer__NotificationRowTwoCol-row--three {
+    border: none;
+}
+/* Notification CSS End*/
+/* Footer CSS Start */
+.Footer {
+    background-color: var(--blue);
+}
+.Footer__Container {
+    padding-top: 5rem;
+    padding-left: 8rem;
+    padding-bottom: 5rem;
+}
+.Footer__RowOne {
+    display: flex;
+    align-items: baseline;
+}
+.Footer__RowOne_LeftPart {
+    display: flex;
+    align-items: center;
+}
+.Footer__RowOne_LeftPart img {
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+.Footer__RowOne_LeftPart div {
+    margin-left: 1rem;
+}
+.Footer__RowOne_LeftPart div h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.Footer__RowOne_LeftPart div p {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.Footer__RowOne_RightPart h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.Footer__RowOne_RightParticon {
+    width: 3rem;
+}
+/* Footer CSS End */
+/* HomePage CSS End */
+/* PopupTwo CSS Start*/
+.form-popuptwo {
+    box-shadow: 0rem 0rem 0.5rem 0.2rem var(--grey1);
+    border-radius: 1rem;
+    display: none;
+    position: fixed;
+    top: 35%;
+    right: 25%;
+    border: none;
+    z-index: 9;
+}
+.form-containertwo {
+    text-align: center;
+    border-radius: 1rem;
+    display: grid;
+    width: 60rem;
+    padding: 3rem 5rem;
+    background-color: var(--white);
+}
+.form-containertwo h1 {
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--purpal);
+}
+.Popupbuttons {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.Popupbuttons .btn {
+    text-decoration: none;
+    margin: auto 1rem auto 1rem;
+    background-color: var(--purpal);
+    border-radius: 0.7rem;
+    color: white;
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+.Popupbuttons .btn--two {
+    padding: 0.6rem 1.9rem;
+    border: 0.1rem solid var(--purpal);
+    background-color: var(--white);
+    color: var(--purpal);
+}
+/* PopupTwo CSS End*/
+/* For Laptop and Big Screen */
+@media (max-width: 2560px) and (min-width: 900px) {
+    html {
+        font-size: calc(9px + (18 - 9) * ((100vw - 900px) / (2560 - 900)));
+    }
+}
+
+/* for tablets and airpads */
+@media (max-width: 899px) and (min-width: 550px) {
+    html {
+        font-size: calc(9px + (15 - 9) * ((100vw - 550px) / (899 - 550)));
+    }
+    /* Navbar CSS Start */
+    .navigation-bar__wallet-btn p {
+        font-size: 1.1rem;
+    }
+    .navigation-bar__wallet-btn span {
+        margin-left: 1rem;
+    }
+    .navigation-bar__history-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__bell-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__profile-btn {
+        margin-left: 1rem;
+    }
+    /* Navbar CSS End */
+    /* TabNav CSS Start */
+
+    .TabContainer {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .TabContainer__TabNav {
+        margin-top: 2rem;
+        height: 4rem;
+        border-radius: 0.5rem;
+        line-height: 3.7rem;
+    }
+    .TabContainer__MobileTabNav {
+        display: none;
+    }
+    .TabContainer__TabNav a {
+        font-size: 1.1rem;
+        padding: 0.5rem 1rem;
+    }
+    .TabContainer__TabNav a:hover {
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+    }
+    .TabContainer__TabNav a i {
+        margin-right: 0.5rem;
+    }
+    .active {
+        box-shadow: 0rem 0rem 0.2rem 0.1rem lightgrey;
+        background-color: var(--white);
+        padding: 0.5rem 1rem;
+        border-radius: 0.7rem;
+        font-size: 1.1rem;
+        color: var(--purpal);
+    }
+    /* TabNav CSS End */
+    /* Login-Page CSS Start */
+    .CreateAccountContainer__Input1 {
+        width: 55%;
+    }
+    .CreateAccountContainer__Inputphonecode {
+        width: 43%;
+    }
+    .CreateAccountContainer__Input2 {
+        width: 55%;
+    }
+    .LoginContainer__Input1 {
+        width: 55%;
+    }
+    .LoginContainer__Input2 {
+        width: 55%;
+    }
+    .Register_button--LoginContainer {
+        padding: 0.7rem 14rem;
+    }
+    .CreateAccountContainer__Select {
+        width: 55%;
+    }
+    /* .CreateAccountContainer__Select-menu{
+    width: 55%;
+} */
+    /* Login-Page CSS End */
+    /* Content-Home CSS Start*/
+    .ContentContainer__Home {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+    .ContentContainer__HomeRowOneCol h1 {
+        font-size: 3rem;
+    }
+    .ContentContainer__HomeRowTwo {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+    .ContentContainer__HomeRowTwo-LeftPart img {
+        width: 20rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart {
+        padding-left: 0rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart h1 {
+        font-size: 2rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart p {
+        font-size: 1.1rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart img {
+        width: 17rem;
+    }
+    /* Content-Home CSS End*/
+    /* Content-Upload CSS Start*/
+    .ContentContainer__Upload {
+        padding: 2rem 0rem 8rem 0rem;
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+    }
+    .ContentContainer__UploadRowOneCol {
+        padding: 0rem;
+    }
+    .ContentContainer__UploadRowOneCol h1 {
+        font-size: 2.5rem;
+    }
+    .ContentContainer__UploadRowOneCol a {
+        padding: 0.3rem 1rem 0.3rem 1rem;
+        font-size: 1rem;
+    }
+    .ContentContainer__UploadRowOneCol a i {
+        margin-right: 1rem;
+        font-size: 1.2rem;
+    }
+    .ContentContainer__UploadRowTwo {
+        margin-top: 0rem;
+        padding: 0.7rem 0rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table {
+        width: 95rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table thead tr th {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .TableInputs1 {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table tbody tr td {
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table tbody tr td i {
+        font-size: 2rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table tbody tr td a i {
+        font-size: 1.5rem;
+    }
+    .Uploadform-select {
+        padding: 0.3rem 0rem 0.3rem 0rem;
+        width: 20%;
+        font-size: 1rem;
+    }
+    .ContentContainer__UploadRowThree {
+        margin-top: 2rem;
+    }
+    .ContentContainer__UploadRowThreeCol a {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    .ContentContainer__UploadRowThree {
+        margin-top: 1rem;
+        padding: 0.5rem 3rem 0.2rem 1.2rem;
+    }
+    /* Content-Upload CSS End*/
+    /* Content-File Status CSS Start*/
+    .ContentContainer__FileStatus {
+        padding: 2rem 0rem 8rem 0rem;
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+    }
+    .ContentContainer__FileStatusRowOneCol {
+        padding: 0rem;
+    }
+    .ContentContainer__FileStatusRowOneCol h1 {
+        font-size: 2.5rem;
+    }
+    .ContentContainer__FileStatusRowOneCol a {
+        padding: 0.3rem 1rem 0.3rem 1rem;
+        font-size: 1rem;
+    }
+    .ContentContainer__FileStatusRowOneCol a i {
+        margin-right: 1rem;
+        font-size: 1.2rem;
+    }
+    .ContentContainer__FileStatusRowTwo {
+        margin-top: 0rem;
+        padding: 0.7rem 0rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table {
+        width: 95rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table thead tr th {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .TableInputs1 {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table tbody tr td {
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table tbody tr td i {
+        font-size: 2rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table tbody tr td a i {
+        font-size: 1.5rem;
+    }
+
+    /* Content-File Status CSS End*/
+    /* Content-Locate CSS Start*/
+    .ContentContainer__Locate {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }
+    .ContentContainer__LocateRowTwoCol {
+        margin-top: 2rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table thead tr th {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .ContentContainer__LocateRowTwoCol .table tbody tr td {
+        color: var(--grey1);
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 1rem 0.5rem 1rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table tbody tr td button {
+        padding: 0.3rem 0.6rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table tbody tr td button i {
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table tbody tr td button span {
+        font-size: 1rem;
+    }
+    .TableAddress img {
+        margin-right: 0.5rem;
+        width: 1.5rem;
+    }
+    .Checkicon {
+        font-size: 2rem;
+    }
+    .ContentContainer__ConfigureRowThreeCol--Locate a {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+    .ContentContainer__LocateRowThree {
+        margin-top: 2rem;
+    }
+    .ContentContainer__LocateRowThreeCol a {
+        text-decoration: none;
+        color: var(--white);
+        background-color: var(--purpal);
+        border: none;
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+        border-radius: 0.5rem;
+    }
+    /* Content-Locate CSS End*/
+    /* Content-Send CSS Start*/
+    .ContentContainer__Send {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__SendRowOneCol {
+        background-color: #fff;
+        box-shadow: 0rem 0rem 0.7rem 0rem var(--grey1);
+        text-align: center;
+        border-radius: 0.5rem;
+        padding: 5rem 7rem 5rem 7rem;
+    }
+    .ContentContainer__SendRowOneCol-btn1 {
+        padding: 0.4rem 3.2rem 0.4rem 3.2rem;
+        border: none;
+        border-radius: 0.5rem;
+        margin: 2rem 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .ContentContainer__SendRowOneCol-btn1--btn2 {
+        padding: 0.3rem 3.1rem 0.3rem 3.1rem;
+        border: 0.1rem solid var(--purpal);
+    }
+    /* Content-Send CSS */
+    /* Content-Validate CSS */
+    .ContentContainer__Validate {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 20rem;
+    }
+    .ContentContainer__ValidateRowTwoCol {
+        margin-top: 1rem;
+        padding: 0rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table thead tr th {
+        color: var(--purpal);
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 1.5rem 0.5rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table tbody tr td {
+        color: var(--purpal);
+        font-size: 0.7rem;
+        font-weight: 500;
+        padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    .downloadicon--validate {
+        margin-left: 0.6rem;
+        font-size: 1.2rem;
+    }
+    /* Content-Validate CSS */
+    /* CreateAccount CSS Start*/
+    .ContentContainer {
+        margin: 0rem 0rem 10rem 3rem;
+    }
+    .ContentContainer__CreateAccountRowOne-LeftPart h1 {
+        font-size: 3rem;
+    }
+    .ContentContainer__CreateAccountRowOne-RightPart h2 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .ContentContainer__CreateAccountRowOne-RightPart a {
+        padding: 0.5rem 3rem;
+        font-size: 1rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPart {
+        margin-top: 0rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartRows {
+        margin-top: 1.5rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartRows label {
+        font-size: 1.5rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartinputs input {
+        padding: 0.5rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttonone a {
+        padding: 0.5rem 9rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttontwo a {
+        width: 50%;
+        padding: 0.25rem 1rem 0.25rem 1rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttontwo a i {
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+    /* CreateAccount CSS End*/
+    /* Received_Money Detail CSS Start*/
+    .ContentContainer__MoneyDetail {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 15rem;
+    }
+    .ContentContainer__MoneyDetailRowOneCol a {
+        width: 8rem;
+        padding: 0rem 0rem 0rem 1rem;
+        font-size: 1rem;
+    }
+    .ContentContainer__MoneyDetailRowTwoCol .table {
+        width: 80rem;
+    }
+    .ContentContainer__MoneyDetailRowTwoCol
+        .table
+        tbody
+        tr
+        td
+        .TableAddress
+        span {
+        margin-left: 0.5rem;
+    }
+    /* Received_Money Detail CSS End*/
+    /* History CSS Start*/
+    .ContentContainer__History {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__HistoryRowTwo {
+        margin-top: 1rem;
+    }
+    .ContentContainer__HistoryRowTwoCol {
+        margin-top: 0rem;
+    }
+    .ContentContainer__HistoryRowOneCol h1 {
+        margin-top: 0rem;
+        font-size: 3rem;
+    }
+    .ContentContainer__HistoryRowTwo {
+        margin-top: 0rem;
+        padding: 0.7rem 0rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table {
+        width: 95rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table thead tr th {
+        padding: 0.2rem 2rem 1rem 2rem;
+        text-align: left;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .ContentContainer__HistoryRowTwoCol .table tbody tr td {
+        text-align: left;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 1rem 2rem 0.5rem 2rem;
+    }
+    /* History CSS End*/
+    /* Notification CSS Start*/
+    .ContentContainer__Notification {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 2.5rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__NotificationRowOneCol {
+        display: flex;
+        align-items: center;
+        padding: 0rem;
+    }
+    /* Notification CSS End*/
+    /* Content-UploadPage CSS Start*/
+    .ContentContainer__UploadPage {
+        padding-left: 1rem;
+        padding-right: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__UploadPageRowOneCol h1 {
+        font-size: 3rem;
+    }
+    .ContentContainer__UploadPageRowThree {
+        margin-top: 2rem;
+    }
+    .ContentContainer__UploadPageRowThreeCol a {
+        font-size: 1.1rem;
+        padding: 0.5rem 2.5rem;
+        border-radius: 0.5rem;
+    }
+    /* Content-UploadPage CSS End*/
+    /* Footer CSS Start */
+    .Footer__Container {
+        padding-top: 3rem;
+        padding-left: 0rem;
+        padding-bottom: 3rem;
+    }
+    .Footer__RowOne_LeftPart {
+        align-items: flex-start;
+    }
+    .Footer__RowOne_LeftPart div h1 {
+        font-size: 1.3rem;
+    }
+    .Footer__RowOne_RightPart h1 {
+        font-size: 1.3rem;
+    }
+    .Footer__RowOne_RightParticon {
+        width: 2.5rem;
+    }
+    /* Footer CSS End */
+    /* PopupTwo CSS Start*/
+    .form-popuptwo {
+        top: 25%;
+        right: 15%;
+    }
+    .form-containertwo {
+        width: 40rem;
+        padding: 3rem 5rem;
+    }
+    .form-containertwo h1 {
+        margin-top: 5rem;
+        font-size: 1.5rem;
+    }
+    .Popupbuttons {
+        margin-top: 2rem;
+    }
+    .Popupbuttons .btn {
+        padding: 0.3rem 2rem;
+        font-size: 1.3rem;
+        width: 30%;
+    }
+    .Popupbuttons .btn--two {
+        padding: 0.2rem 1.9rem;
+    }
+    /* PopupTwo CSS End*/
+}
+
+/* for mobile devices */
+@media (max-width: 549px) and (min-width: 320px) {
+    html {
+        font-size: calc(9px + (13 - 9) * ((100vw - 320px) / (549 - 320)));
+    }
+    .js-hide {
+        display: none !important;
+    }
+    /* Navbar CSS Start */
+    .navigation-bar__left {
+        width: 40%;
+    }
+    .navigation-bar__left img {
+        width: 17rem;
+        margin-left: -2rem;
+    }
+    .navigation-bar__right {
+        margin-right: 0.5rem;
+    }
+    .navigation-bar__wallet-btn {
+        padding: 0.3rem 0.3rem;
+    }
+    .navigation-bar__wallet-btn p {
+        font-size: 1.1rem;
+    }
+    .navigation-bar__wallet-btn span {
+        margin-left: 1rem;
+    }
+    .navigation-bar__history-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__history-btn img {
+        width: 1.7rem;
+    }
+    .navigation-bar__bell-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__bell-btn img {
+        width: 1.7rem;
+    }
+    .navigation-bar__profile-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__profile-btn img {
+        width: 2.7rem;
+    }
+    /* Navbar CSS End */
+    /* HomePage CSS Satrt */
+    /* TabNav CSS Start */
+    .TabContainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .TabContainer__TabNav {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        margin-top: 3rem;
+        background-color: var(--greylight2);
+        border: 0.1rem solid var(--purpal);
+        border-radius: 0.7rem;
+        padding: 0.5rem 2rem;
+        position: relative;
+        line-height: 2.7rem;
+    }
+    .TabContainer__TabNav--mobile {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        background-color: var(--greylight2);
+        border-radius: 0.7rem;
+        padding: 2rem 0rem;
+        position: relative;
+        line-height: 2.7rem;
+    }
+    .TabContainer__MobileTabNav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .TabContainer__MobileTabNav h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: var(--purpal);
+    }
+    .TabContainer__MobileTabNav i {
+        font-size: 4rem;
+        font-weight: 600;
+        color: var(--purpal);
+    }
+    /* TabNav CSS End */
+    /* Login-Page CSS Start */
+    .Login_countainer {
+        margin-top: 5rem;
+    }
+    .Register_button {
+        padding: 0.7rem 10rem;
+    }
+    .Register_button--secondary {
+        padding: 0.7rem 13.5rem;
+    }
+    .CreateAccountContainer__Input1 {
+        width: 85%;
+    }
+    .CreateAccountContainer__Inputphonecode {
+        width: 64%;
+    }
+    .CreateAccountContainer__Input2 {
+        width: 85%;
+    }
+    .LoginContainer__Input1 {
+        width: 85%;
+    }
+    .LoginContainer__Input2 {
+        width: 85%;
+    }
+    .Register_button--LoginContainer {
+        padding: 0.7rem 13rem;
+    }
+    .CreateAccountContainer__Select {
+        width: 87%;
+    }
+    /* .CreateAccountContainer__Select-menu{
+    width: 87%;
+} */
+    /* Login-Page CSS End */
+    /* Content-Home CSS Start*/
+    .ContentContainer__Home {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .ContentContainer__HomeRowOneCol h1 {
+        text-align: center;
+    }
+    .ContentContainer__HomeRowTwo {
+        display: grid;
+        margin-top: 1rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart {
+        margin-top: 2rem;
+        padding: 0rem 3rem 0rem 3rem;
+        text-align: center;
+    }
+    .ContentContainer__HomeRowTwo-RightPart h1 {
+        font-size: 3rem;
+    }
+    .ContentContainer__HomeRowTwo-LeftPart {
+        text-align: center;
+    }
+    .ContentContainer__HomeRowTwo-LeftPart img {
+        width: 32rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart p {
+        font-size: 1.5rem;
+    }
+    /* Content-Home CSS End*/
+    /* Content-Upload CSS Start*/
+    .ContentContainer__Upload {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    .ContentContainer__UploadRowOneCol {
+        padding: 0;
+    }
+    .ContentContainer__UploadRowOneCol a i {
+        margin-right: 1rem;
+    }
+    .ContentContainer__UploadRowTwoCol {
+        margin-top: 3rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table {
+        width: 150rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table thead tr th {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .ContentContainer__UploadRowTwoCol .table tbody tr td {
+        padding: 2rem 1.5rem 0.5rem 4.5rem;
+    }
+    .TableInputs1 {
+        height: 2rem;
+        width: 2rem;
+    }
+    .ContentContainer__UploadRowThree {
+        margin-top: 5rem;
+    }
+    .ContentContainer__UploadRowThreeCol a {
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 1rem;
+    }
+    /* Content-Upload CSS End*/
+    /* Content-FileStatus CSS Satrt*/
+    .ContentContainer__FileStatus {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol {
+        margin-top: 3rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table {
+        width: 150rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table thead tr th {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .ContentContainer__FileStatusRowTwoCol .table tbody tr td {
+        padding: 2rem 1.5rem 0.5rem 4.5rem;
+    }
+    .TableInputs1 {
+        height: 2rem;
+        width: 2rem;
+    }
+    /* Content-FileStatus CSS End*/
+    /* Content-Locate CSS Start*/
+    .ContentContainer__Locate {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table {
+        width: 130rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table thead tr th {
+        padding: 1rem 2rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table tbody tr td {
+        padding: 1.5rem 2rem 0.5rem 2rem;
+    }
+    .ContentContainer__LocateRowThree {
+        margin-top: 4rem;
+    }
+    .ContentContainer__ConfigureRowThreeCol a {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    /* Content-Locate CSS End*/
+    /* Content-Send CSS Start*/
+    .ContentContainer__Send {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__SendRowOneCol {
+        padding: 6rem 4rem 4rem 3rem;
+    }
+    .ContentContainer__SendRowOneCol-btn1 {
+        border-radius: 0.3rem;
+        margin: 1rem 0.8rem;
+    }
+    /* Content-Send CSS End*/
+    /* Content-Validate CSS Start*/
+    .ContentContainer__Validate {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table {
+        width: 130rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table thead tr th {
+        padding: 1rem 4rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table tbody tr td {
+        padding: 1.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    /* Content-Validate CSS End*/
+    /* CreateAccount CSS Start*/
+    .ContentContainer {
+        margin: 0rem 0rem 10rem 0rem;
+    }
+    .ContentContainer__CreateAccountRowOne-LeftPart h1 {
+        font-size: 3.5rem;
+    }
+    .ContentContainer__CreateAccountRowOne-RightPart {
+        padding: 0rem 1rem;
+    }
+    .ContentContainer__CreateAccountRowOne-RightPart h2 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPart {
+        margin-top: 1rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartRows {
+        margin-top: 2rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartRows label {
+        font-size: 1.8rem;
+    }
+    .CreateAccount__Edit-icon {
+        display: none;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttonone a {
+        padding: 1rem 15rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttontwo a {
+        padding: 0.7rem 1rem 0.7rem 1rem;
+    }
+    /* CreateAccount CSS End*/
+    /* Received_Money Detail CSS Start*/
+    .ContentContainer__MoneyDetail {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__MoneyDetailRowOneCol h1 {
+        font-size: 1.2rem;
+    }
+    .ContentContainer__MoneyDetailRowTwoCol .table {
+        width: 80rem;
+    }
+    /* Received_Money Detail CSS End*/
+    /* History CSS Start*/
+    .ContentContainer__History {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__HistoryRowTwoCol {
+        margin-top: 3rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table {
+        width: 150rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table thead tr th {
+        text-align: left;
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table tbody tr td {
+        text-align: left;
+        padding: 2rem 1.5rem 0.5rem 4.5rem;
+    }
+    .TableInputs1 {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    /* .ContentContainer__HistoryRowTwo{
+    margin-top: 1rem;
+}
+.ContentContainer__HistoryRowOneCol h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+        }
+.ContentContainer__HistoryRowTwoCol .table thead tr th{
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+                        }
+.ContentContainer__HistoryRowTwoCol .table tbody tr td{
+    font-size: 1.1rem;
+    padding: 2rem 3.5rem 0.5rem 3.5rem;
+                                }
+.Tablecheckicon{
+    font-size: 2.5rem;
+} */
+
+    /* History CSS End*/
+    /* Notification CSS Start*/
+    .ContentContainer__Notification {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__NotificationRowOneCol {
+        display: flex;
+        align-items: center;
+        padding: 0rem;
+    }
+    .ContentContainer__NotificationRowTwoCol-row--three {
+        border-left: 0.1rem solid #479fcd;
+    }
+    /* Notification CSS End*/
+    /* Content-UploadPage CSS Start*/
+    .ContentContainer__UploadPage {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__UploadPageRowOneCol h1 {
+        font-size: 3rem;
+    }
+    /* Content-UploadPage CSS End*/
+    /* Footer CSS Start */
+    .Footer {
+        background-color: var(--blue);
+    }
+    .Footer__Container {
+        padding-left: 0rem;
+    }
+    .Footer__RowOne {
+        display: grid;
+    }
+    .Footer__RowOne_LeftPart {
+        display: grid;
+    }
+    .Footer__RowOne_LeftPart img {
+        justify-content: center;
+        margin: auto;
+        width: 30rem;
+    }
+    .Footer__RowOne_LeftPart div {
+        margin: 0rem 3rem;
+    }
+    .Footer__RowOne_LeftPart div h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .Footer__RowOne_LeftPart div p {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+    .Footer__RowOne_RightPart {
+        margin-top: 2rem;
+    }
+    .Footer__RowOne_RightPart h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .Footer__RowOne_RightPart .row {
+        padding: 2rem 5rem 0rem 5rem;
+    }
+    .Footer__RowOne_RightParticon {
+        width: 4rem;
+    }
+
+    /* Footer CSS End */
+    /* HomePage CSS End */
+    /* PopupTwo CSS Start*/
+    .form-popuptwo {
+        top: 30%;
+        right: 8%;
+    }
+    .form-containertwo {
+        width: 30rem;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .form-containertwo h1 {
+        margin-top: 5rem;
+        font-size: 1.7rem;
+    }
+    .Popupbuttons .btn {
+        width: 40%;
+    }
+    /* .form-popuptwo {
+    top:40%;
+    right: 15%;
+  }
+.form-containertwo {
+    width: 25rem;
+    padding: 2rem 3rem 2rem 1rem;
+  }
+.form-containertwo h1{
+    font-size: 1.5rem;
+  }
+.form-containertwo p{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+   }
+.form-containertwo input[type=text] {
+    margin-top: .5rem;
+    width: 100%;
+  }
+.form-containertwo .btn {
+    width: 100%;
+  } */
+
+    /* PopupTwo CSS End*/
+}
+
+/* for smaller mobile devices */
+@media (max-width: 319px) and (min-width: 180px) {
+    html {
+        font-size: calc(6px + (10 - 6) * ((100vw - 180px) / (319 - 180)));
+    }
+    .js-hide {
+        display: none !important;
+    }
+    /* Navbar CSS Start */
+    .navigation-bar__left {
+        width: 40%;
+    }
+    .navigation-bar__left img {
+        width: 17rem;
+        margin-left: -2rem;
+    }
+    .navigation-bar__right {
+        margin-right: 0.5rem;
+    }
+    .navigation-bar__wallet-btn {
+        padding: 0.3rem 0.3rem;
+    }
+    .navigation-bar__wallet-btn p {
+        font-size: 1.1rem;
+    }
+    .navigation-bar__wallet-btn span {
+        margin-left: 1rem;
+    }
+    .navigation-bar__history-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__history-btn img {
+        width: 1.7rem;
+    }
+    .navigation-bar__bell-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__bell-btn img {
+        width: 1.7rem;
+    }
+    .navigation-bar__profile-btn {
+        margin-left: 1rem;
+    }
+    .navigation-bar__profile-btn img {
+        width: 2.7rem;
+    }
+    /* Navbar CSS End */
+    /* HomePage CSS Satrt */
+    /* TabNav CSS Start */
+    .TabContainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .TabContainer__TabNav {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        margin-top: 3rem;
+        background-color: var(--greylight2);
+        border: 0.1rem solid var(--purpal);
+        border-radius: 0.7rem;
+        padding: 0.5rem 2rem;
+        position: relative;
+        line-height: 2.7rem;
+    }
+    .TabContainer__TabNav--mobile {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        background-color: var(--greylight2);
+        border-radius: 0.7rem;
+        padding: 2rem 0rem;
+        position: relative;
+        line-height: 2.7rem;
+    }
+    .TabContainer__MobileTabNav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .TabContainer__MobileTabNav h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: var(--purpal);
+    }
+    .TabContainer__MobileTabNav i {
+        font-size: 4rem;
+        font-weight: 600;
+        color: var(--purpal);
+    }
+    /* TabNav CSS End */
+
+    /* Content-Home CSS Start*/
+    .ContentContainer__Home {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .ContentContainer__HomeRowOneCol h1 {
+        text-align: center;
+    }
+    .ContentContainer__HomeRowTwo {
+        display: grid;
+        margin-top: 1rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart {
+        margin-top: 2rem;
+        padding: 0rem 3rem 0rem 3rem;
+        text-align: center;
+    }
+    .ContentContainer__HomeRowTwo-RightPart h1 {
+        font-size: 3rem;
+    }
+    .ContentContainer__HomeRowTwo-LeftPart {
+        text-align: center;
+    }
+    .ContentContainer__HomeRowTwo-LeftPart img {
+        width: 32rem;
+    }
+    .ContentContainer__HomeRowTwo-RightPart p {
+        font-size: 1.5rem;
+    }
+    /* Content-Home CSS End*/
+    /* Content-Upload CSS Start*/
+    .ContentContainer__Upload {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    .ContentContainer__UploadRowOneCol {
+        padding: 0;
+    }
+    .ContentContainer__UploadRowOneCol a i {
+        margin-right: 1rem;
+    }
+    .ContentContainer__UploadRowTwo {
+        padding: 1rem 1rem;
+        box-shadow: 0rem 0rem 0.5rem 0.1rem var(--grey1);
+    }
+    .ContentContainer__UploadRowThree {
+        padding: 1rem 0.5rem 0.2rem 0.5rem;
+    }
+    .ContentContainer__UploadRowThreeLeftPart h1 i {
+        font-size: 1.7rem;
+    }
+    /* Content-Upload CSS End*/
+    /* Content-Configure CSS Satrt*/
+    .ContentContainer__Configure {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+    }
+    .ContentContainer__ConfigureRowTwoCol .table thead tr th {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .ContentContainer__ConfigureRowTwoCol .table tbody tr td {
+        padding: 2rem 1.5rem 0.5rem 4.5rem;
+    }
+    .TableInputs1 {
+        height: 2rem;
+        width: 2rem;
+    }
+    .TableInputs2 {
+        height: 3rem;
+        width: 3rem;
+    }
+    .TableInputs3 {
+        height: 3rem;
+        width: 8rem;
+    }
+    .ContentContainer__ConfigureRowThreeCol a {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    /* Content-Configure CSS End*/
+    /* Content-Locate CSS Start*/
+    .ContentContainer__Locate {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table thead tr th {
+        padding: 1rem 2rem;
+    }
+    .ContentContainer__LocateRowTwoCol .table tbody tr td {
+        padding: 1.5rem 2rem 0.5rem 2rem;
+    }
+    .ContentContainer__ConfigureRowThreeCol a {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    /* Content-Locate CSS End*/
+    /* Content-Send CSS Start*/
+    .ContentContainer__Send {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__SendRowOneCol {
+        padding: 6rem 4rem 4rem 3rem;
+    }
+    .ContentContainer__SendRowOneCol-btn1 {
+        border-radius: 0.3rem;
+        margin: 1rem 0.8rem;
+    }
+    /* Content-Send CSS End*/
+    /* Content-Validate CSS Start*/
+    .ContentContainer__Validate {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table thead tr th {
+        padding: 1rem 4rem;
+    }
+    .ContentContainer__ValidateRowTwoCol .table tbody tr td {
+        padding: 1.5rem 3.5rem 0.5rem 3.5rem;
+    }
+    /* Content-Validate CSS End*/
+    /* CreateAccount CSS Start*/
+    .ContentContainer {
+        margin: 0rem 0rem 10rem 0rem;
+    }
+    .ContentContainer__CreateAccountRowOne-LeftPart h1 {
+        font-size: 3.5rem;
+    }
+    .ContentContainer__CreateAccountRowOne-RightPart {
+        padding: 0rem 1rem;
+    }
+    .ContentContainer__CreateAccountRowOne-RightPart h2 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPart {
+        margin-top: 1rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartRows {
+        margin-top: 2rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartRows label {
+        font-size: 1.8rem;
+    }
+    .CreateAccount__Edit-icon {
+        display: none;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttonone a {
+        padding: 1rem 15rem;
+    }
+    .ContentContainer__CreateAccountRowTwo-LeftPartbuttontwo a {
+        padding: 0.7rem 1rem 0.7rem 1rem;
+    }
+    /* CreateAccount CSS End*/
+    /* Received_Money Detail CSS Start*/
+    .ContentContainer__MoneyDetail {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__MoneyDetailRowOneCol h1 {
+        font-size: 1.3rem;
+    }
+    /* Received_Money Detail CSS End*/
+    /* History CSS Start*/
+    .ContentContainer__History {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__HistoryRowTwo {
+        margin-top: 1rem;
+    }
+    .ContentContainer__HistoryRowOneCol h1 {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table thead tr th {
+        padding: 1rem 1rem;
+        font-size: 1.1rem;
+    }
+    .ContentContainer__HistoryRowTwoCol .table tbody tr td {
+        font-size: 1.1rem;
+        padding: 2rem 3.5rem 0.5rem 3.5rem;
+    }
+    .Tablecheckicon {
+        font-size: 2.5rem;
+    }
+
+    /* History CSS End*/
+    /* Notification CSS Start*/
+    .ContentContainer__Notification {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__NotificationRowOneCol {
+        display: flex;
+        align-items: center;
+        padding: 0rem;
+    }
+    .ContentContainer__NotificationRowTwoCol-row--three {
+        border-left: 0.1rem solid #479fcd;
+    }
+    /* Notification CSS End*/
+    /* Content-UploadPage CSS Start*/
+    .ContentContainer__UploadPage {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+    .ContentContainer__UploadPageRowOneCol h1 {
+        font-size: 3rem;
+    }
+    /* Content-UploadPage CSS End*/
+    /* Footer CSS Start */
+    .Footer {
+        background-color: var(--blue);
+    }
+    .Footer__Container {
+        padding-left: 0rem;
+    }
+    .Footer__RowOne {
+        display: grid;
+    }
+    .Footer__RowOne_LeftPart {
+        display: grid;
+    }
+    .Footer__RowOne_LeftPart img {
+        justify-content: center;
+        margin: auto;
+        width: 30rem;
+    }
+    .Footer__RowOne_LeftPart div {
+        margin: 0rem 3rem;
+    }
+    .Footer__RowOne_LeftPart div h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .Footer__RowOne_LeftPart div p {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+    .Footer__RowOne_RightPart {
+        margin-top: 2rem;
+    }
+    .Footer__RowOne_RightPart h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .Footer__RowOne_RightPart .row {
+        padding: 2rem 5rem 0rem 5rem;
+    }
+    .Footer__RowOne_RightParticon {
+        width: 4rem;
+    }
+
+    /* Footer CSS End */
+    /* HomePage CSS End */
+}

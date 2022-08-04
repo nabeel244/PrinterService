@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="user1" cx="27" cy="27" r="27" transform="translate(370.778 303.967)" fill="#576271"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-370.778 -303.967)" clip-path="url(#clip-path)">
+    <path id="__TEMP__SVG__" d="M30.857,3.857a27,27,0,1,0,27,27A27,27,0,0,0,30.857,3.857Zm0,9.643a8.659,8.659,0,1,1-6.143,2.536A8.679,8.679,0,0,1,30.857,13.5ZM46.286,48.06a23.007,23.007,0,0,1-30.857,0V46.942a10.029,10.029,0,0,1,9.643-10.3H36.643a10.047,10.047,0,0,1,9.643,10.241Z" transform="translate(366.921 300.11)" fill="#576271"/>
+  </g>
+</svg>

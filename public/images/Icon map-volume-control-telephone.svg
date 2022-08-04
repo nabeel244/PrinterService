@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.475" height="28.829" viewBox="0 0 20.475 28.829">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a2ac0"/>
+      <stop offset="1" stop-color="#181461"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_map-volume-control-telephone" data-name="Icon map-volume-control-telephone" d="M11.046,12.732h1.611c.483,0,.792-.71.792-1.189V6.471c0-.48-.309-.346-.792-.346H11.046Zm0,9.61h1.611c.483,0,.792.557.792,1.038v5.07c0,.477-.309,1.1-.792,1.1H11.046Zm-2.126-4.8c-.014-4.635.858-4.8,1.354-4.8h.171V6.125H10.24c-.885,0-5.2,1.454-5.2,11.711s4.315,11.712,5.2,11.712h.205V22.342h-.171C9.778,22.342,8.933,22.169,8.92,17.537Zm5.848-9.983a1.963,1.963,0,0,1,0,2.5l.959.789a3.214,3.214,0,0,0,0-4.077l-.959.79Zm3.084,5.564a6.205,6.205,0,0,0,.007-8.369l-.933.813a4.964,4.964,0,0,1-.014,6.742l.94.813ZM19.973,15.4a9.224,9.224,0,0,0,.021-12.66l-.919.837a8,8,0,0,1-.014,10.986ZM22.1,17.673A12.265,12.265,0,0,0,22.124.72l-.9.858a11.011,11.011,0,0,1-.02,15.233l.9.862Z" transform="translate(-5.04 -0.72)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.068" height="19.534" viewBox="0 0 39.068 19.534">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a2ac0"/>
+      <stop offset="1" stop-color="#181461"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-band-aid" data-name="Icon awesome-band-aid" d="M0,10.657V22.377a3.91,3.91,0,0,0,3.907,3.907h5.86V6.75H3.907A3.91,3.91,0,0,0,0,10.657ZM35.162,6.75H29.3V26.284h5.86a3.91,3.91,0,0,0,3.907-3.907V10.657A3.91,3.91,0,0,0,35.162,6.75ZM11.721,26.284H27.348V6.75H11.721ZM22.464,12.122A1.465,1.465,0,1,1,21,13.587,1.462,1.462,0,0,1,22.464,12.122Zm0,5.86A1.465,1.465,0,1,1,21,19.447,1.462,1.462,0,0,1,22.464,17.982Zm-5.86-5.86a1.465,1.465,0,1,1-1.465,1.465A1.462,1.462,0,0,1,16.6,12.122Zm0,5.86a1.465,1.465,0,1,1-1.465,1.465A1.462,1.462,0,0,1,16.6,17.982Z" transform="translate(0 -6.75)" fill="url(#linear-gradient)"/>
+</svg>
